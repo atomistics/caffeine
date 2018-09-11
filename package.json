@@ -1,0 +1,25 @@
+{
+  "name": "@atomistics/caffeine",
+  "version": "1.0.0",
+  "description": "Atomic positions and numbers of the caffeine molecule.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-dot"
+  },
+  "keywords": [
+    "chemistry",
+    "atomistics",
+    "molecule",
+    "caffeine"
+  ],
+  "author": "Rye Terrell",
+  "license": "Unlicense",
+  "dependencies": {
+    "ndarray": "^1.0.18"
+  },
+  "repository": "github:atomistics/caffeine",
+  "devDependencies": {
+    "tap-dot": "^2.0.0",
+    "tape": "^4.9.1"
+  }
+}
